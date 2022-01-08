@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Delsu Mobile Hub Content Management System</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
+    <link href="dist-assets/css/themes/lite-purple.css" rel="stylesheet" />
+    <link href="dist-assets/css/plugins/perfect-scrollbar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="dist-assets/css/plugins/fontawesome-5.css" />
+    <link href="dist-assets/css/plugins/metisMenu.min.css" rel="stylesheet" />
+</head>
+
+<body class="text-left">
+    <div class="app-admin-wrap layout-sidebar-vertical sidebar-full">
+        <div class="sidebar-panel">
+            <div class="gull-brand pr-3 text-center mt-4 mb-2 d-flex justify-content-center align-items-center"><img src="dist-assets/images/logo.png" alt="alt" style="width: 168px;margin-left: 5px;"/>
+                <!--  <span class=" item-name text-20 text-primary font-weight-700">GULL</span> -->
+                <div class="sidebar-compact-switch ml-auto"><span></span></div>
+            </div>
+            <!--  user -->
+            <div class="scroll-nav ps ps--active-y" data-perfect-scrollbar="data-perfect-scrollbar" data-suppress-scroll-x="true">
+                <div class="side-nav">
+                    <div class="main-menu">
+                        <ul class="metismenu" id="menu">
+                            <li class="Ul_li--hover mm-active"><a class="has-arrow" href="#"><i class="i-Bar-Chart text-20 mr-2 text-muted"></i><span class="item-name text-15 text-muted">Mobile Content</span></a>
+                                <ul class="mm-collapse">
+                                    <li class="item-name"><a href="dashboard1.html"><i class="i-Circular-Point mr-2 text-muted"></i><span class="text-muted">View Posts</span></a></li>
+                                    <li class="item-name"><a href="dashboard2.html"><i class="i-Circular-Point mr-2 text-muted"></i><span class="text-muted">Add New Post</span></a></li>
+                                    <li class="item-name"><a href="dashboard3.html"><i class="i-Circular-Point mr-2 text-muted"></i><span class="text-muted">View Categories</span></a></li>
+                                    <li class="item-name"><a href="dashboard4.html"><i class="i-Circular-Point mr-2 text-muted"></i><span class="text-muted">Add Category</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 0px; height: 404px; right: 0px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 325px;"></div>
+                </div>
+                <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 0px; height: 404px; right: 0px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 325px;"></div>
+                </div>
+            </div>
+            <!--  side-nav-close -->
+        </div>
+        <div class="switch-overlay"></div>
+        <div class="main-content-wrap mobile-menu-content bg-off-white m-0">
+            <header class="main-header bg-white d-flex justify-content-between p-2">
+                <div class="header-toggle">
+                    <div class="menu-toggle mobile-menu-icon">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="header-part-right">
+                    <!-- Full screen toggle--><i class="i-Full-Screen header-icon d-none d-sm-inline-block" data-fullscreen=""></i>
+                </div>
+            </header>
+            <div class="main-content pt-4">
+                <div class="breadcrumb">
+                    <h1 class="mr-2">Content Management System</h1>
+                    <ul>
+                        <li><a href="#">Add Post</a></li>
+                    </ul>
+                </div>
+                <div class="separator-breadcrumb border-top"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Add New Post</h4>
+                        <div class="card mb-5">
+                            <div class="card-body">
+                                <div class="d-flex flex-column">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Enter Post Title" id="title" name="title"/>
+                                    </div>
+                                    <div class="form-group">
+                                            <select class="form-control">
+                                                <option>Select Category</option>
+                                                <option>Option 1</option>
+                                                <option>Option 1</option>
+                                            </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Enter Category Name" id="post" name="post"/>
+                                    </div>
+                                    <button class="btn btn-primary pd-x-20">Create Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of row-->
+                <!-- end of main-content -->
+            </div>
+        </div>
+    </div><!-- ============ Search UI Start ============= -->
+    <!-- ============ Search UI End ============= -->
+    <script src="dist-assets/js/plugins/jquery-3.3.1.min.js"></script>
+    <script src="dist-assets/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="dist-assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="dist-assets/js/scripts/tooltip.script.min.js"></script>
+    <script src="dist-assets/js/scripts/script.min.js"></script>
+    <script src="dist-assets/js/scripts/script_2.min.js"></script>
+    <script src="dist-assets/js/scripts/sidebar.large.script.min.js"></script>
+    <script src="dist-assets/js/plugins/feather.min.js"></script>
+    <script src="dist-assets/js/plugins/metisMenu.min.js"></script>
+    <script src="dist-assets/js/scripts/layout-sidebar-vertical.min.js"></script>
+    <script src="dist-assets/js/plugins/echarts.min.js"></script>
+    <script src="dist-assets/js/scripts/echart.options.min.js"></script>
+    <script src="dist-assets/js/plugins/datatables.min.js"></script>
+    <script src="dist-assets/js/scripts/dashboard.v2.script.min.js"></script>
+</body>
+</html>
